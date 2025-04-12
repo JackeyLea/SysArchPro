@@ -1,6 +1,8 @@
 # SysArchPro
 软考系统架构设计师(System Architect Professional)
 
+**软考其他偏技术的科目有：软件评测师、软件设计师、数据库系统工程师**
+
 ## 环境
 
 - Windows 10 Pro 22H2
