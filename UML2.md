@@ -54,6 +54,8 @@ car1 --> driver1
 @enduml
 ```
 
+类与对象
+
 ---
 
 ### 3. **组件图 (Component Diagram)**
@@ -187,9 +189,11 @@ stop
 @enduml
 ```
 
+并发分叉、并发汇合、监护表达式、分支、流
+
 ---
 
-### 10. **状态机图 (State Machine Diagram)**
+### 10. **状态图 (State Machine Diagram)**
 • **类型**: 行为图
 • **功能**: 展示对象状态变化
 • **用途**: 实时系统建模、设备控制逻辑
