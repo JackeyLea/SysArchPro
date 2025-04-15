@@ -1,4 +1,15 @@
+```plantuml
+@startuml
 
+类A ..> 类B : 依赖
+类C -- 类D : 关联
+部分类E --o 整体类F : 聚合
+部分类G --* 整体类H : 组合
+子类I --|> 父类J : 泛化
+类K ..|> 类L :实现
+
+@enduml
+```
 
 ## 规则
 
@@ -85,6 +96,8 @@ object driver1 {
 car1 --> driver1
 @enduml
 ```
+
+类与对象
 
 ---
 
@@ -198,9 +211,11 @@ stop
 @enduml
 ```
 
+并发分叉、并发汇合、监护表达式、分支、流
+
 ---
 
-##### 10. **状态机图 (State Machine Diagram)**
+##### 10. **状态图 (State Machine Diagram)**
 • **功能**: 由状态、转移、事件和活动组成，展示对象状态变化
 • **用途**: 实时系统建模、设备控制逻辑
 ```plantuml
